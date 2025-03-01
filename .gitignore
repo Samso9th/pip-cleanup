@@ -1,0 +1,106 @@
+# Python build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+docs.md
+important.txt
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local development settings
+.env
+.env.local
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# PyPI config
+.pypirc
+$HOME/
+
+# Additional ignores
+coverage.xml
+nosetests.xml
+docs/_build/
+docs/api/
+*.sqlite
+*.db
+.envrc
+.direnv
+pip-cleanup.spec
+# Python build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+docs.md
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local development settings
+.env
+.env.local
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
