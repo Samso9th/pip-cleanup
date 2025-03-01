@@ -1,4 +1,4 @@
-# Python
+# Python build artifacts
 __pycache__/
 *.py[cod]
 *$py.class
@@ -21,19 +21,24 @@ wheels/
 *.egg
 docs.md
 
-# Virtual Environment
+# Virtual environments
 venv/
-ENV/
 env/
 .env/
 .venv/
+ENV/
 
-# IDE
+# IDE specific files
 .idea/
 .vscode/
 *.swp
 *.swo
 *~
+
+# Local development settings
+.env
+.env.local
+*.log
 
 # OS specific files
 .DS_Store
@@ -43,29 +48,58 @@ Thumbs.db
 .pypirc
 $HOME/
 
-# Testing and coverage
-.coverage
-htmlcov/
-.tox/
-.pytest_cache/
+# Additional ignores
 coverage.xml
 nosetests.xml
-
-# Documentation
 docs/_build/
 docs/api/
-
-# Logs and databases
-*.log
 *.sqlite
 *.db
-
-# Environment variables
-.env
 .envrc
 .direnv
-.env.local
-
-# Package specific
 pip-cleanup.spec
-pip-cleanup.egg-info/
+# Python build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+docs.md
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local development settings
+.env
+.env.local
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
