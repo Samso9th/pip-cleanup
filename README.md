@@ -128,7 +128,7 @@ You can:
 - Use --exclude to skip test directories or other non-relevant code
 - Use --ignore to keep packages that might be used indirectly
 - Use --json for integration with other tools or scripts.
-- Use --requirements to update your requirements.txt automatically
+- Use --requirements to update your requirements.txt automatically.
 
 ## Contributing
 
